@@ -1,5 +1,4 @@
-TicketReaderSDK
-
+#TicketReaderSDK
 
 This project includes the basic libraries and functions needed to implement all the basic operations and workflows of a barcode ticket reading machine.
 
