@@ -1,21 +1,21 @@
-#TicketReaderSDK
+# TicketReaderSDK
 
 This project includes the basic libraries and functions needed to implement all the basic operations and workflows of a barcode ticket reading machine.
 
 It was originally written as the ground layer of a parking ticketing solution, which used Eltra devices to print and read barcode tickets. The ticket reader was an Eltra EL0540-N-30, controlled by a Raspberry PI which also operated the automatic barrier.
 The solution also included a ticket printer operated by a Windows machine, and an integration with a server software which checked ticket validity.
 
-###Devices
+### Devices
 This project is tested working on Raspberry PI, but should also work without problems on any GNU/Linux system. It could potentially be portable to any OS.
 
 
-###Scope
+### Scope
 This project was developed and tested for a specific device, but could provide the basis for implementations for other devices of the same type.
 The original SDK was provided only for .NET and Windows. Some function names and declarations have been modeled in a similar way to the original SDK functions, to provide easier switching between frameworks.
 
 The project also contains a sample "test" application which showcases the basic operations. 
 
-##Project structure
+## Project structure
 
 The **conf** directory contains the configuration files for the applications. The test application only needs the serial port device file path.
 
